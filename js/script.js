@@ -78,3 +78,23 @@ const product = {
 
 
 product.getExpired()
+
+
+
+
+const heading = document.querySelector("h3")
+
+heading.innerHTML= "hello"
+
+
+const colour = document.querySelector("h4");
+colour.style.background = "pink";
+colour.style.color = "blue";
+
+
+const list = document.querySelector (".service-list");
+
+console.log(list.innerHTML);
+
+list.innerHTML += "<li>elephant</li> ";
+

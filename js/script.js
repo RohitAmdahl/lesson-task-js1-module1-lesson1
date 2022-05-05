@@ -21,7 +21,7 @@ const instruments = [
 ];
 
 
-console.table(instruments );
+console.table(instruments);
 
 
 const name = "Percival";
@@ -96,5 +96,14 @@ const list = document.querySelector (".service-list");
 
 console.log(list.innerHTML);
 
-list.innerHTML += "<li>elephant</li> ";
+list.innerHTML += `<li>elephant</li>
+<p>name: monkey</> `;
 
+
+const lorumChange = document.querySelector(".content")
+
+lorumChange.innerHTML = `<p>My names: cat</p>
+                         <p>My Age is : 2 years</p>
+                         <p>I am friendly  : false</p>`;
+
+                         const contentParagraphs = document.querySelectorAll(".content p");

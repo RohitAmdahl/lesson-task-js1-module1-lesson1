@@ -107,3 +107,16 @@ lorumChange.innerHTML = `<p>My names: cat</p>
                          <p>I am friendly  : false</p>`;
 
                          const contentParagraphs = document.querySelectorAll(".content p");
+
+
+const textMassage = document.querySelector(".text");
+console.log(textMassage);
+const buttonCheck = document.querySelector(".btn");
+console.log(buttonCheck);
+
+buttonCheck.onclick = function () {
+  textMassage.innerHTML = `<div> thank you </div>`
+
+}
+
+
